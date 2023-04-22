@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "92c53102-e939-4390-82ff-fe41d698456d",
+		"name": "halyk-life-task",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25924788"
+	},
+	"item": [
+		{
+			"name": "request example",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"method\":\"GET\",\r\n  \"url\": \"https://github.com/danabeknar/kazakhstan-it-internships\", \r\n  \"headers\": { \r\n      \"Authentication\": \"Basic bG9naW46cGFzc3dvcmQ=\"\r\n  }\r\n} \r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/proxy",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"proxy"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
